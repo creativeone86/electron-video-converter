@@ -17,7 +17,7 @@ class VideoSelectScreen extends Component {
 
     if (videos.length) {
       this.props.addVideos(videos);
-      
+
       if (!this.props.small) {
         this.props.history.push('/convert');
       }
